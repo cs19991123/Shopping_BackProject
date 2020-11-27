@@ -1,0 +1,140 @@
+.search{
+    background: #fbfcfd;
+}
+.search .m-input{
+    padding: .3rem .2rem;
+    position: relative;
+}
+.search .inputcover{
+    position: relative;
+    width: 100%;
+    height: .6rem;
+    padding: 0 .6rem;
+    box-sizing: border-box;
+    background: #ebecec;
+    border-radius: .6rem;
+}
+.search .u-svg{
+    display: inline-block;
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.search .inputcover .u-svg-srch{
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNiAyNiI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBmaWxsPSIjYzljOWNhIiBkPSJNMjUuMTgxIDIzLjUzNWwtMS40MTQgMS40MTQtNy4zMTUtNy4zMTRBOS45NjYgOS45NjYgMCAwIDEgMTAgMjBDNC40NzcgMjAgMCAxNS41MjMgMCAxMFM0LjQ3NyAwIDEwIDBzMTAgNC40NzcgMTAgMTBjMCAyLjM0Mi0uODExIDQuNDktMi4xNiA2LjE5NWw3LjM0MSA3LjM0ek0xMCAyYTggOCAwIDEgMCAwIDE2IDggOCAwIDAgMCAwLTE2eiIvPjwvc3ZnPg==');
+    width: .26rem;
+    height: .26rem;
+    position: absolute;
+    left: 0;
+    top: .18rem;
+    margin: 0 .16rem;
+    vertical-align: middle;
+}
+.search .inputcover .input{
+    width: 100%;
+    height: 30px;
+    line-height: .36rem;
+    background: rgba(0,0,0,0);
+    font-size: .28rem;
+    color: #333;
+}
+.search .inputcover .closeInput{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: .6rem;
+    height: .6rem;
+    line-height: .56rem;
+    text-align: center;
+}
+.search .inputcover .closeInput .u-svg-empty{
+    display: none;
+    width: .28rem;
+    height: .28rem;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyOCAyOCI+PGcgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSIjYmNiZGJkIiBkPSJNMTQgMGM3LjczMiAwIDE0IDYuMjY4IDE0IDE0cy02LjI2OCAxNC0xNCAxNFMwIDIxLjczMiAwIDE0IDYuMjY4IDAgMTQgMHoiLz48cGF0aCBkPSJNMTkgOUw5IDE5TTkgOWwxMCAxMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZWJlY2ViIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIi8+PC9nPjwvc3ZnPg==');
+    vertical-align: middle;
+}
+.search .m-recom{
+    margin: 0 auto;
+    display: none;
+}
+.search .inputcover .closeInput .z-show{
+    display: inline-block;
+}
+.search .show{
+    display: block;
+}
+.search .close{
+    display: none;
+}
+.search .m-hotlist{
+    padding: .3rem .2rem 0;
+}
+.search .m-hotlist .title{
+    font-size: .24rem;
+    line-height: .24rem;
+    color: #666;
+}
+.search .m-hotlist .list{
+    margin: .2rem 0 .14rem;
+}
+.search .m-hotlist .item{
+    display: inline-block;
+    position: relative;
+    height: .64rem;
+    margin-right: .16rem;
+    margin-bottom: .16rem;
+    padding: 0 .28rem;
+    font-size: .28rem;
+    line-height: .64rem;
+    color: #333;
+}
+.search .m-hotlist .item::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: .64rem;
+    border: 1px solid rgba(211,212,218,.7);
+}
+.search .m-hotlist .item a{
+    color: #333;
+}
+.search .m-recom .title{
+    height: 1rem;
+    margin-left: .2rem;
+    padding-right: .2rem;
+    font-size: .3rem;
+    line-height: 1rem;
+    color: #507daf;
+    position: relative;
+}
+.search .m-recom .f-thide{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+.search .m-recom .u-svg-search{
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNiAyNiI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBmaWxsPSIjYzljOWNhIiBkPSJNMjUuMTgxIDIzLjUzNWwtMS40MTQgMS40MTQtNy4zMTUtNy4zMTRBOS45NjYgOS45NjYgMCAwIDEgMTAgMjBDNC40NzcgMjAgMCAxNS41MjMgMCAxMFM0LjQ3NyAwIDEwIDBzMTAgNC40NzcgMTAgMTBjMCAyLjM0Mi0uODExIDQuNDktMi4xNiA2LjE5NWw3LjM0MSA3LjM0ek0xMCAyYTggOCAwIDEgMCAwIDE2IDggOCAwIDAgMCAwLTE2eiIvPjwvc3ZnPg==');
+    width: .3rem;
+    height: .3rem;
+    margin-right: .14rem;
+}
+.search .m-recom .recomitem{
+    display: flex;
+    align-items: center;
+    height: .9rem;
+    padding-left: .2rem;
+}
+.search .m-recom span{
+    display: inline-block;
+    flex: 1;
+    width: 1%;
+    padding-right: .2rem;
+    font-size: .3rem;
+    line-height: .9rem;
+    color: #333;
+}

@@ -1,0 +1,24 @@
+import React from 'react'
+import Index from './views/index'
+import List from './views/list'
+import Play from './views/play'
+import Login from './views/login'
+import {Switch,Route,Redirect} from 'react-router-dom'
+
+class App extends React.Component{
+    render(){
+        return (
+            <div>
+                <Switch>
+                    <Route path='/index' component={Index}></Route>
+                    <Route path='/list' component={List}></Route>
+                    <Route path='/play' component={Play}></Route>
+                    <Route path='/login' component={Login}></Route>
+                    <Redirect to='/index'></Redirect>
+                </Switch>
+            </div>
+        )
+    }
+}
+
+export default App

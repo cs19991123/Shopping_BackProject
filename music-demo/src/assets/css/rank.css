@@ -1,0 +1,128 @@
+.rank .hotop{
+    position: relative;
+    padding-top: 38.9%;
+    overflow: hidden;
+    background: url('https://s3.music.126.net/mobile-new/img/hot_music_bg_2x.jpg?f01a252389c26bcf016816242eaa6aee=') no-repeat;
+    background-size: contain;
+}
+.rank .hotop::after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,.2);
+}
+.rank .hotopct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    padding-left: .4rem;
+    box-sizing: border-box;
+}
+.rank .u-hmsprt{
+    background: url('https://s3.music.126.net/mobile-new/img/index_icon_2x.png?5207a28c3767992ca4bb6d4887c74880=') no-repeat;
+    background-size: 3.32rem 1.94rem;
+}
+.rank .hoticon{
+    width: 2.84rem;
+    height: 1.34rem;
+    background-position: -.48rem -.6rem;
+}
+.rank .hottime{
+    margin-top: .2rem;
+    font-size: .24rem;
+    color: hsla(0,0%,100%,.8);
+    transform: scale(.91);
+    transform-origin: left top;
+}
+.rank .hotcont .sgfl{
+    align-items: center;
+    justify-content: center;
+    width: .8rem;
+    font-size: .34rem;
+    margin-left: -.2rem;
+    display: flex;
+    color: #999;
+}
+.rank .hotcont .sgfl-cred{
+    color: #df3436;
+}
+.rank .hotcont .m-sglst{
+    position: relative;
+}
+.rank .hotcont .m-sglst .m-sgitem{
+    color: #333;
+    display: flex;
+    padding-left: .2rem;
+}
+.rank .hotcont .m-sglst .m-sgitem .sgfr{
+    display: flex;
+    position: relative;
+    flex: 1;
+}
+.rank .hotcont .m-sglst .sgchfl{
+    flex: 1;
+    padding: .12rem 0;
+    width: 0;
+}
+.rank .hotcont .m-sglst .sgchfl .f-thide{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+.rank .hotcont .m-sglst .sgchfl .sgtl{
+    font-size: .34rem;
+    line-height: .5rem;
+}
+.rank .hotcont .m-sglst .sgchfl .sgalia{
+    color: #888;
+    margin-left: .08rem;
+}
+.rank .hotcont .m-sglst .sgchfl .sginfo{
+    font-size: .24rem;
+    color: #888;
+    line-height: .36rem;
+}
+.rank .hotcont .m-sglst .sgchfl .sghot{
+    display: inline-block;
+    width: .24rem;
+    height: .16rem;
+    margin-right: .08rem;
+}
+.rank .hotcont .m-sglst .sgchfr{
+    display:flex;
+    align-items: center;
+    padding: 0 .2rem;
+}
+.rank .hotcont .m-sglst  .u-hmsprt{
+    background: url('https://s3.music.126.net/mobile-new/img/index_icon_2x.png?5207a28c3767992ca4bb6d4887c74880=') no-repeat;
+    background-size: 3.32rem 1.94rem;
+}
+.rank .hotcont .m-sglst .sgchfr .sgchply{  
+    display: inline-block;
+    width: .44rem;
+    height: .44rem;
+    background-position: -.48rem 0;
+}
+.rank .hotdn{
+    height: 1.1rem;
+    line-height: 1.1rem;
+    text-align: center;
+}
+.rank .hotdn .hotview{
+    display: inline-block;
+    color: #999;
+    padding-right: .28rem;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNCAyMiI+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjY2NjIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZD0iTTEgMWwxMCAxMEwxIDIxIi8+PC9zdmc+') 100% no-repeat;
+    background-size: .14rem .24rem;
+}
